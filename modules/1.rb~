@@ -15,9 +15,9 @@ module Mod
 end
 
 
-class Varun
+class Cbb
 	include Mod
 end
 
-number = Varun.new
+number = Cbb.new
 number.method_1

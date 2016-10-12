@@ -15,10 +15,11 @@ class Lottery
 end
 
 gifts ={
-	1 =>"gift",2=>"gift2",3=>"gift3",4=>"gift4",5=>"gift5",6=>"gift6",7=>"gift7",8=>"gift8",9=>"gift9",10=>"gift10",
+	key, value,
+	key,value
 }
 num=gets.to_i
-puts "#{gifts[num]}"
-# number = 'Inut From the user'
-# # prize = Lottery.new(number)
-# puts prize
+puts "gifts#{num}"
+number = 'Inut From the user'
+prize = Lottery.new(number)
+puts prize
